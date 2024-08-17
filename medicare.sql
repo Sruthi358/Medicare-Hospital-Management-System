@@ -26,7 +26,8 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `appointment`
 --
-
+CREATE DATABASE medicare;
+USE medicare;
 CREATE TABLE `appointment` (
   `sno` int(11) NOT NULL,
   `username` varchar(30) NOT NULL,
