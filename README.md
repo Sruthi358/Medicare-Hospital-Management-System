@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # **Hospital Management System**
 
 Hospital Management System using MySQL, PHP, HTML, CSS
@@ -227,6 +226,3 @@ Details of the doctors can also be viewed by the admin. This details include the
 
 Taking everything into consideration, admin can able to view the details of patients and doctors, appointment details, Feedback by the user and can add a new doctor. Once everything is done, the admin can logout from his account.
 
-=======
-# Medicare-Hospital-Management-System
->>>>>>> 9e879d49363e833b6a72b1e190a0843e04754fe7
