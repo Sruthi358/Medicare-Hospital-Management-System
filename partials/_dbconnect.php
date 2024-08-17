@@ -4,10 +4,9 @@
     $username = "root";
     $password = "";
     $database = "medicare";
-    $port = 3308;
 
     //create a connection
-    $con = mysqli_connect($server, $username, $password, $database, $port);
+    $con = mysqli_connect($server, $username, $password, $database);
 
     //die if connection was not successful
     if(!$con){
