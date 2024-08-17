@@ -1,0 +1,52 @@
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 20vw;
+    box-shadow: -2px 10px 12px #888;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo-p img {
+    width: 170px;
+    padding-bottom: 30px;
+}
+
+nav ul li {
+    list-style: none;
+    width: 20vw;
+}
+
+nav ul li a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+nav ul li a:hover{
+    background-color: lightblue;
+}
+
+.right {
+    float: right;
+    width: 77vw;
+    margin-left: 200px; 
+    padding: 20px;
+    overflow: hidden;
+}
+

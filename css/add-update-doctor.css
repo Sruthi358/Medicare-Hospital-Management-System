@@ -1,0 +1,92 @@
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    display: grid;
+    padding: 20px;
+}
+
+.form .formdesign select,option,input{
+    width: 650px;
+    height: 33px;
+    padding:5px;
+}
+
+.form .formdesign textarea{
+    width: 650px;
+}
+
+.form label{
+    color: black;
+    padding:5px;
+    font-size: 15px;
+}
+
+.dob-phno label{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.dob-phno input{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.gender-part{
+    display: grid;
+    grid-template-columns: 90px 90px 90px;
+}
+
+.gender-part input{
+    width:15px;
+    height:15px;
+}
+
+.languages-part{
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px;
+}
+
+.languages-part input{
+    width:15px;
+    height:15px;
+}
+
+.address{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.address input{
+    width: 317px;
+    margin: 2px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border: black solid 1px;
+    border-radius: 5%;
+    font-size: 15px;
+    padding: 5px;
+    margin-right: 20px;
+    width: 150px;
+    height: 40px;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.buttons-reg{
+    padding-top:20px;
+}

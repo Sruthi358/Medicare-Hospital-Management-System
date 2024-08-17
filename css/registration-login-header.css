@@ -1,0 +1,32 @@
+nav {
+    background-color: white;
+    color: black;
+    box-shadow: 0px -2px 10px 0px black;
+    height: 11vh;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.option {
+    display: flex;
+    align-content: center;
+}
+
+.logo img {
+    width: 10vw;
+    height: 9vh;
+    padding-top: 7px;
+}
+
+nav ul .option button a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul .option button a:hover{
+    color: white;
+}

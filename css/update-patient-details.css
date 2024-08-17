@@ -1,0 +1,114 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.image img{
+    width: 550px;
+    padding-left: 74px;
+    padding-right: 40px;
+    padding-top: 15px;
+}
+
+.whole{
+    display: flex;
+    padding: 20px;
+}
+
+.form-outer-reg-confirm{
+    padding-top:100px;
+}
+
+.form input{
+    width: 550px;
+    height: 20px;
+    font-size: 13px;
+}
+
+.form{
+    display: grid;
+    padding: 20px;
+}
+
+.form input,label{
+    padding:5px;
+}
+
+.gender-part{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.gender-part input{
+    width:15px;
+    height:15px;
+}
+
+.address{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.address input{
+    width: 246px;
+    margin: 2px;
+}
+
+.dob-phno label{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.dob-phno input{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border: black solid 1px;
+    border-radius: 5%;
+    font-size: 15px;
+    padding: 5px;
+    margin-right: 10px;
+    width: 150px;
+    height: 40px;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    padding-top: 10px;
+}
+
+.buttons-reg{
+    padding-top:20px;
+}
+/* from bootstrap */
+.alert {
+    padding: 0.5rem 0.5rem; 
+    margin-bottom: 0.5rem; 
+    margin: 0px auto; 
+}
+
+.alert-dismissible .btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    padding: 0.75rem 1rem;
+}

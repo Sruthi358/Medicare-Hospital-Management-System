@@ -1,0 +1,45 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.form {
+    display: grid;
+    padding-left: 100px;
+    padding-top: 60px;
+}
+
+.form label,input,select,option {
+    width: 400px;
+    padding: 4px 0px;
+    font-size: 15px;
+}
+
+.image img {
+    width: 325px;
+}
+
+.button {
+    display: flex;
+    padding-top: 15px;
+}
+
+button {
+    padding: 5px;
+    background-color: #3B71CA;
+    color: white;
+    width: 80px;
+    margin: 7px;
+    border: 1px solid;
+    border-radius: 5%;
+}
+
+.button a {
+    text-decoration: none;
+    color: blue;
+    padding-top: 12px;
+    padding-left: 20px;
+    font-size: 14px;
+}

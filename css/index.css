@@ -1,0 +1,92 @@
+/* header-start */
+header{
+    height: 13vh;
+}
+
+nav {
+    background-color: white;
+    color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.option {
+    display: flex;
+    align-content: center;
+}
+
+button a{
+    color: white;
+}
+
+.logo img {
+    height: 77px;
+    width: 204px;
+}
+/* header-end */
+
+/* main-start */
+main {
+    height: 90vh;
+}
+
+.picture img {
+    width: 100vw;
+    height: 380px;
+}
+
+nav ul .option button a{
+    text-decoration: none;
+    color: blue;
+}
+
+nav ul .option button a:hover{
+    color: white;
+}
+
+footer{
+    height: 18vh;
+    color: white;
+}
+
+.contact {
+    display: flex;
+    background-color: red;
+  }
+
+  .contact .head{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact .head p {
+    text-align: center;
+    font-size: 14px;
+    padding: 12px 10px 1px 10px;
+  }
+
+  .contact ul {
+    display: flex;
+    padding: 0px 0px;
+  }
+
+  .contact ul li {
+    padding: 12px 80px 0px 80px;
+    list-style: none;
+    font-size: 13px;
+
+  }
+
+  .copyright {
+    text-align: center;
+    font-size: 13px;
+    padding: 15px 0px 13px;
+    background-color: #0d6efd;
+  }
+

@@ -1,0 +1,101 @@
+.doc-search{
+    padding-left: 100px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.doc-search input{
+    width: 60vw;
+    height: 40px;
+    text-align:center;
+    font-size: 15px;
+}
+
+.doc-search button{
+    padding: 9px;
+    border: 1px black solid;
+    border-radius: 2px;
+    background-color: purple;
+    color: white;
+    margin-left: 5px;
+}
+
+.view-grid {
+    display: flex;
+    padding: 10px;
+}
+
+.doctor-box {
+    width: 50vw;
+    height: 43vh;
+    margin-left: 60px;
+    background-color: #f5f5f5;
+}
+
+.desc {
+    display: flex;
+}
+
+.doc-img img {
+    width: 160px;
+    height: 150px;
+    padding: 20px 0px 0px 20px;
+}
+
+.doc-details {
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.doc-details .drname {
+    color: purple;
+    font-size: 21px;
+}
+
+.doc-details .drtype {
+    color: grey;
+    font-size: 14px;
+}
+
+.doc-details .drlang {
+    color: black;
+    font-size: 16px;
+}
+
+.doc-details .drtime {
+    color: black;
+    font-size: 14px;
+}
+
+.doc-details .drloc {
+    color: black;
+    font-size: 15px;
+}
+
+.doc-details .doc-pad {
+    padding: 2px;
+}
+
+.doc-details li {
+    list-style: none;
+    padding: 2px;
+}
+
+.doc-button {
+    float: right;
+    padding-right: 130px;
+    padding-top: 15px;
+}
+
+.doc-button button {
+    background-color: purple;
+    padding: 10px 30px;
+    border: 1px black solid;
+
+}
+
+.doc-button button a {
+    color: white;
+    text-decoration: none;
+}
+

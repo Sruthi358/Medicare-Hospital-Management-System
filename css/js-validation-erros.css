@@ -1,0 +1,9 @@
+.formerror {
+    color: red;
+    font-size: 12px;
+    line-height: 100%;
+}
+
+.formdesign {
+    display: grid;
+}

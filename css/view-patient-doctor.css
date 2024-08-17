@@ -1,0 +1,18 @@
+.container{
+    font-size: 13px;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    max-width: none;
+}
+
+.container table {
+    text-align: left;
+}
