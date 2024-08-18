@@ -38,13 +38,6 @@ CREATE TABLE `appointment` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `appointment`
---
-
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `appointment_history`
 --
 
@@ -59,14 +52,6 @@ CREATE TABLE `appointment_history` (
   `status` enum('unread','read') NOT NULL DEFAULT 'unread',
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `appointment_history`
---
-
-
-
--- --------------------------------------------------------
 
 --
 -- Table structure for table `doctor`
@@ -92,21 +77,6 @@ CREATE TABLE `doctor` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `doctor`
---
-
-INSERT INTO `doctor` (`sno`, `name`, `username`, `email`, `dob`, `phone`, `gender`, `languages`, `qualification`, `speciality`, `area`, `city`, `state`, `code`, `password`, `photo`) VALUES
-(1, 'Dinesh Kumar', 'dinesh05', 'dinesh@gmail.com', '1982-12-05', 9876543210, 'Male', 'Telugu,Hindi,English', 'MBBS', 'Cardiologist', 'Vanasthalipuram', 'Hyderabad', 'Telangana', 500032, '12345.', 'images/doc6.png'),
-(2, 'Sruthi Reddy', 'sruthi05', 'sruthi@gmail.com', '1980-07-23', 9876556789, 'Female', 'Telugu,English', 'MBBS', 'Gynaecologist', 'Saroornagar', 'Hyderabad', 'Telangana', 500035, '12345.', 'images/doc7.png'),
-(3, 'Tuheena sarma', 'tuheena05', 'tuheena@gmail.com', '1992-04-29', 9876567890, 'Female', 'Telugu,English', 'MBBS, Doctor of Medicine(Psychology)', 'Psychiatrist', 'LB Nagar', 'Hyderabad', 'Telangana', 500034, '12345.', 'images/doc5.jpg'),
-(4, 'Nishant Reddy', 'nishant05', 'nishant@gmail.com', '1989-03-02', 9846734789, 'Male', 'Telugu,Hindi,English', 'MBBS, Doctor of Medicine(Neurology)', 'Neurologist', 'Vanasthalipuram', 'Rangareddy', 'TELANGANA', 500035, '123456;', 'images/doc1.jpg'),
-(5, 'Pranathi Reddy', 'pranathi05', 'pranathi@gmail.com', '1996-09-23', 8734145787, 'Female', 'Telugu,Hindi,English', 'MBBS', 'General physician', 'LB Nagar', 'Rangareddy', 'TELANGANA', 500035, '123456;', 'images/doc4.jpg'),
-(6, 'Niranjan ', 'niranjan05', 'niranjan@gmail.com', '0001-06-23', 9834458621, 'Male', 'Telugu,English,Tamil', 'MBBS,Dermatology', 'Dermatologist', 'Uppal', 'Hyderabad', 'Telangana', 500035, '123456;', 'images/doc8.jpeg'),
-(7, 'Anjali', 'anjali05', 'anjali@gmail.com', '1978-02-14', 6300436184, 'Female', 'Telugu,English', 'MBBS', 'General physician', 'Bandlaguda', 'Hyderabad', 'Telangana', 500035, '123456;', 'images/doc3.jpg');
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `feedback`
 --
 
@@ -118,13 +88,6 @@ CREATE TABLE `feedback` (
   `feedback` text NOT NULL,
   `time` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `feedback`
---
-
-
--- --------------------------------------------------------
 
 --
 -- Table structure for table `leave_request`
@@ -144,13 +107,6 @@ CREATE TABLE `leave_request` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `leave_request`
---
-
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `registration`
 --
 
@@ -168,14 +124,6 @@ CREATE TABLE `registration` (
   `code` int(10) NOT NULL,
   `password` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `registration`
---
-
---
--- Indexes for dumped tables
---
 
 --
 -- Indexes for table `appointment`
