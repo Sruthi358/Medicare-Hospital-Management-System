@@ -29,11 +29,11 @@ Hospital Management System using MySQL, PHP, HTML, CSS
 1. Download and install XAMPP in your machine
 2. Clone or download the repository
 3. Extract all the files and move it to the 'htdocs' folder of your XAMPP directory.
-4. Start the Apache and Mysql in your XAMPP control panel.
-5. Open your web browser and type 'localhost/phpmyadmin'
-6. In phpmyadmin page, create a new database from the left panel and name it as 'medicare'.
-7. Import the file 'medicare.sql' inside your newly created database and click ok.
-8. Name your folder as 'rtp-doctor-appointment-booking-system'.
+4. Name your folder as 'rtp-doctor-appointment-booking-system'.
+5. Start the Apache and Mysql in your XAMPP control panel.
+6. Open your web browser and type 'localhost/phpmyadmin'
+7. In phpmyadmin page, create a new database from the left panel and name it as 'medicare'.
+8. Import the file 'medicare.sql' inside your newly created database and click ok.
 9. Open a new tab and type 'localhost/foldername' in the url of your browser.
 10. Hurray! That's it!
 
