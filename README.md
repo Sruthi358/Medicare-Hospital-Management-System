@@ -69,7 +69,7 @@ This module allows patients to create their account, book an appointment to see 
 
 Once the patient has created his/her own account after clicking the ‘Register’ button, then he will be redirected to login page(Fig 1.3).
 
-<img src="(https://github.com/user-attachments/assets/358bbcba-6012-4aac-a795-3de8740fab5c" alt="4" width="600" />
+<img src="https://github.com/user-attachments/assets/52b611a2-3a1d-482f-abc1-ea850b980718" alt="4" width="600" />
 
 Then the patient will be redirected to his/her dashboard.
 
