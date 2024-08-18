@@ -41,17 +41,6 @@ CREATE TABLE `appointment` (
 -- Dumping data for table `appointment`
 --
 
-INSERT INTO `appointment` (`sno`, `username`, `speciality`, `doc_name`, `doa`, `toa`, `type`, `reason`) VALUES
-(1, 'sruthi2005', 'Psychiatrist', 'Tuheena sarma', '2024-06-23', '3:00 PM', 'New consultation', 'Depression'),
-(2, 'sohana123', 'Cardiologist', 'Dinesh Kumar', '2024-06-24', '3:30 PM', 'New consultation', 'Pain'),
-(3, 'sruthi2005', 'Gynaecologist', 'Sruthi Reddy', '2024-06-27', '11:00 AM', 'New consultation', 'body pains'),
-(4, 'sohana123', 'Cardiologist', 'Dinesh Kumar', '2024-07-01', '2:30 PM', 'New consultation', 'Chest pain'),
-(5, 'sruthi2005', 'Dermatologist', 'Niranjan', '2024-06-29', '11:00 AM', 'New consultation', 'Skin Allergy'),
-(6, 'sravani05', 'General physician', 'Anjali', '2024-06-27', '3:30 PM', 'Follow up', 'Fever'),
-(7, 'srinija2005', 'General physician', 'Anjali', '2024-06-28', '10:00 AM', 'New consultation', 'Headache'),
-(14, 'vijay987', 'Psychiatrist', 'Tuheena sarma', '2024-07-05', '5:00 PM', 'New consultation', 'Sleep Disorder'),
-(15, 'sruthi2005', 'General physician', 'Pranathi Reddy', '2024-07-03', '2:30 PM', 'New consultation', 'Headache'),
-(16, 'sruthi2005', 'General physician', 'Anjali', '2024-08-28', '4:30 PM', 'Follow up', 'hi');
 
 -- --------------------------------------------------------
 
@@ -75,10 +64,7 @@ CREATE TABLE `appointment_history` (
 -- Dumping data for table `appointment_history`
 --
 
-INSERT INTO `appointment_history` (`username`, `doc_name`, `doa`, `toa`, `speciality`, `reason`, `time`, `status`, `id`) VALUES
-('sruthi2005', 'Nishant Reddy', '2024-06-28', '03:00:00', 'Neurologist', 'Leg pains', '2024-06-27 19:55:00', 'read', 1),
-('srihitha04', 'Nishant Reddy', '2024-07-06', '11:30:00', 'Neurologist', 'Brain Tumor', '2024-06-27 21:12:03', 'read', 2),
-('likith05', 'Pranathi Reddy', '2024-07-04', '03:00:00', 'General physician', 'cold', '2024-06-28 16:10:42', 'read', 6);
+
 
 -- --------------------------------------------------------
 
@@ -137,12 +123,6 @@ CREATE TABLE `feedback` (
 -- Dumping data for table `feedback`
 --
 
-INSERT INTO `feedback` (`sno`, `name`, `doc_name`, `speciality`, `feedback`, `time`) VALUES
-(3, 'sruthi', 'Tuheena sarma', 'Psychiatrist', 'Veey good', '2024-06-22 19:36:08'),
-(4, 'srinija', 'Anjali', 'General physician', 'Good treatment', '2024-06-26 13:09:35'),
-(6, 'srihitha', 'Nishant Reddy', 'Neurologist', 'They explained clearly and answered all my questions', '2024-06-26 13:23:15'),
-(8, 'Sraavani', 'Anjali', 'General physician', 'Thankyou for your dedication and support', '2024-06-28 12:19:34'),
-(9, 'Sraavani', 'Pranathi Reddy', 'General physician', 'I feel confident in the care you provide', '2024-06-28 12:24:34');
 
 -- --------------------------------------------------------
 
@@ -167,11 +147,6 @@ CREATE TABLE `leave_request` (
 -- Dumping data for table `leave_request`
 --
 
-INSERT INTO `leave_request` (`sno`, `username`, `doc_name`, `reason`, `start_date`, `end_date`, `comments`, `time`, `status`, `status_read`) VALUES
-(6, 'nishant05', 'Nishant Reddy', 'I have sister\'s marriage', '2024-07-03', '2024-07-03', 'Please accept my leave', '2024-06-27 19:39:06', 'Accepted', 'read'),
-(7, 'dinesh05', 'Dinesh Kumar', 'Health is not well', '2024-06-29', '2024-07-02', 'Please accept my leave', '2024-06-27 19:41:22', 'Accepted', 'read'),
-(9, 'nishant05', 'Nishant Reddy', 'Going for a tour', '2024-07-04', '2024-07-04', 'Please accept my leave', '2024-06-27 20:58:49', 'Pending', 'unread'),
-(10, 'anjali05', 'Anjali', 'Marriage', '2024-06-29', '2024-07-03', 'Please accept my leave', '2024-06-28 09:42:48', 'Rejected', 'read');
 
 -- --------------------------------------------------------
 
@@ -197,18 +172,6 @@ CREATE TABLE `registration` (
 --
 -- Dumping data for table `registration`
 --
-
-INSERT INTO `registration` (`sno`, `name`, `username`, `email`, `dob`, `phone`, `gender`, `area`, `city`, `state`, `code`, `password`) VALUES
-(1, 'sohana', 'sohana123', 'gsohana95@gmail.com', '2005-09-03', 9381224969, 'Female', 'siddipet', 'hyderabad', 'Telangana', 500035, '123456;'),
-(2, 'Sruthi ', 'sruthi2005', 'asruthi3525@gmail.com', '2001-12-28', 9876543210, 'Female', 'Jubliee hills', 'Hyderabad', 'Telangana', 500035, '12345678/'),
-(3, 'srinija', 'srinija2005', 'narayanamsrinija18@gmail.com', '2005-08-18', 8179626262, 'Female', 'Gollapudi', 'Vijayawada', 'Andhrapradesh', 521225, '12345;'),
-(4, 'srihitha', 'srihitha04', 'rsrihitha1712@gmail.com', '2004-12-17', 7672006809, 'Female', 'Dilshuknagar', 'Hyderabad', 'Telangana', 500035, '12346;'),
-(5, 'Sraavani', 'sravani05', 'sravani34@gmail.com', '2004-08-23', 8567348572, 'Female', 'Nalgonda', 'Hyderabad', 'Telangana', 500035, '123456;'),
-(7, 'Sunitha', 'sunitha05', 'nvlsunitha.5@gmail.com', '1980-06-12', 9390244541, 'Female', 'Saroornagar', 'Rangareddy', 'Telangana', 500035, '12345;'),
-(8, 'Ramesh', 'ramesh05', 'ramesh34@gmail.com', '1984-07-15', 9823456278, 'Male', 'Suryapet', 'Hyderabad', 'Telangana', 500035, '123456;'),
-(9, 'Likith', 'likith05', 'likith54@gmail.com', '1979-04-07', 7533862768, 'Male', 'Miryalaguda', 'Suryapet', 'Telangana', 500035, '123456;'),
-(10, 'Vijay', 'vijay987', 'vijay98@gmail.com', '1987-10-03', 8745382945, 'Male', 'Karimanagar', 'Hyderabad', 'Telangana', 500035, '123456;'),
-(11, 'Srinidhi', 'srinidhi02', 'srinidhi123@gmail.com', '2001-09-20', 9876567890, 'Female', 'Saroornagar', 'Hyderabad', 'Telangana', 500035, '123456;');
 
 --
 -- Indexes for dumped tables
